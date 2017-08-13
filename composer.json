@@ -3,8 +3,8 @@
   "description": "ABC-Framework: Error Logger",
   "keywords": [
     "ABC-Framework",
-    "error",
-    "logger"
+    "Error",
+    "Logger"
   ],
   "require": {
     "php": ">=7.0.0"
