@@ -1,5 +1,5 @@
 <?php
-//----------------------------------------------------------------------------------------------------------------------
+
 namespace SetBased\Abc\ErrorLogger;
 
 /**
@@ -15,7 +15,7 @@ interface ErrorLogger
    *
    * @return void
    */
-  public function logError($throwable);
+  public function logError(\Throwable $throwable): void;
 
   //--------------------------------------------------------------------------------------------------------------------
 }
