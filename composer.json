@@ -1,19 +1,18 @@
 {
-  "name": "setbased/abc-error-logger",
-  "description": "ABC-Framework: Error Logger",
+  "name": "plaisio/error-logger",
+  "description": "PhpPlaisio: Error Logger",
   "keywords": [
-    "ABC-Framework",
+    "PhpPlaisio",
     "Error",
     "Logger"
   ],
+  "license": "MIT",
   "require": {
     "php": ">=7.1.0"
   },
-  "type": "library",
-  "license": "MIT",
   "autoload": {
     "psr-4": {
-      "SetBased\\Abc\\ErrorLogger\\": "src/"
+      "Plaisio\\ErrorLogger\\": "src/"
     }
   }
 }

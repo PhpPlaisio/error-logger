@@ -1,9 +1,9 @@
 <?php
 
-namespace SetBased\Abc\ErrorLogger;
+namespace Plaisio\ErrorLogger;
 
 /**
- * Interface for logging an error (i.e. an instance of Error or Exception).
+ * Interface for logging an error (i.e. a Throwable object).
  */
 interface ErrorLogger
 {
@@ -11,7 +11,7 @@ interface ErrorLogger
   /**
    * Logs an error.
    *
-   * @param \Throwable $throwable The instance of Exception or Error to be logged.
+   * @param \Throwable $throwable The error.
    *
    * @return void
    */
