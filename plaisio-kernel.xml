@@ -1,0 +1,9 @@
+<kernel>
+    <properties>
+        <property>
+            <type>\Plaisio\ErrorLogger\ErrorLogger</type>
+            <name>errorLogger</name>
+            <description>The error logger.</description>
+        </property>
+    </properties>
+</kernel>
